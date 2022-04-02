@@ -1,18 +1,16 @@
 package easy;
 
-import javax.swing.JOptionPane;
-
 public class Exercicio09 {
-    public static void main(String[] args) {
+    public int[] calcularTabuada(int numDigitado) {
 
-        int i=0;
-
-        String numDigitadoString = JOptionPane.showInputDialog("Digite um número entre 1 a 10: ");
-        int numDigitado = Integer.parseInt(numDigitadoString);
+        int[] vetorTabuada = new int[10];
+        int i=1;
 
         while(i<=10){
-            System.out.println("Tabuada do "+numDigitado+ " é: " + (numDigitado*i));
+            vetorTabuada[i -1]  = numDigitado*i;
             i++;
-        }    
+        } 
+        return vetorTabuada;   
     }
+
 }
