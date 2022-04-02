@@ -1,9 +1,8 @@
 package easy;
 
 public class Exercicio04 {
-    public String retornaDobraNum (){
-        int num = 3;
-        return "O dobro do número " +num + " é: " +num*2;
-    }
-    
+    public int retornaDobraNum (int num){
+        int resultado = num *2;
+        return resultado;
+    } 
 }
