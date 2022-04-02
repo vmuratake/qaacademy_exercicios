@@ -1,11 +1,8 @@
 package easy;
 
 public class Exercicio03 {
-    public String retornaNumero1 (){
-        return "Exibe numero";
-    }
-
-    public String retornaNumero2 (){
-        return "Exibe numero";
+    public String retornaValoresTrocados (int num1, int num2) {
+        return "Exibe primeiro número: " +num2 + "\n"
+               + "Exibe primeiro número: " +num1;
     }   
 }
