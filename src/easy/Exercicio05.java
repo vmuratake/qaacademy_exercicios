@@ -1,26 +1,24 @@
 package easy;
 
-
 public class Exercicio05 {
-    public int retornaSoma() {
+
+    public int retornaSoma(int num1, int num2, int num3) {
+        int  soma = num1+num2+num3;
         return soma;
-        
-        int soma, multiplicacao, media, subtracao; 
+    }
 
-        int num1 = 2;
-        int num2 = 9;
-        int num3 = 4;
-
-        soma = num1+num2+num3;
-        subtracao = num1-num2-num3;
-        multiplicacao = num1*num2*num3;
-        media = (num1+num2+num3)/3;
-
-        
-        return media;
+    public int retornaSubtracao(int num1, int num2, int num3) {
+        int subtracao = num1-num2-num3;
         return subtracao;
-        return multiplicacao;
-
-        }
+    } 
     
+    public int retornaMultiplicacao(int num1, int num2, int num3) {
+        int multiplicacao = num1*num2*num3;
+        return multiplicacao;
+    }
+    
+    public double retornaMedia(double num1, double num2, double num3) {
+        double media = (num1+num2+num3)/3;
+        return media;
+    }
 }
