@@ -2,10 +2,11 @@ package easy;
 
 
 public class Exercicio05 {
-    public int retornaOperacoes(int operacoes) {
+    public int retornaSoma() {
+        return soma;
+        
+        int soma, multiplicacao, media, subtracao; 
 
-        int soma, subtracao, multiplicacao, media;
-      
         int num1 = 2;
         int num2 = 9;
         int num3 = 4;
@@ -15,10 +16,10 @@ public class Exercicio05 {
         multiplicacao = num1*num2*num3;
         media = (num1+num2+num3)/3;
 
-        return soma;
+        
+        return media;
         return subtracao;
         return multiplicacao;
-        return media;
 
         }
     
